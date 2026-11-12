@@ -1,0 +1,11 @@
+{
+    "name": "azuriom/vote-ranking",
+    "type": "azuriom-plugin",
+    "description": "Reward the best voters of each month with shop points or in-game commands.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\VoteRanking\\": "src/"
+        }
+    }
+}

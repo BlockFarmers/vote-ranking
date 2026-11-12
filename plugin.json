@@ -1,0 +1,19 @@
+{
+    "id": "vote-ranking",
+    "name": "Vote Ranking",
+    "version": "1.0.0",
+    "description": "Reward the best voters of each month with shop points or in-game commands.",
+    "url": "https://market.azuriom.com",
+    "authors": [
+        "BlockFarmers"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\VoteRanking\\Providers\\VoteRankingServiceProvider",
+        "\\Azuriom\\Plugin\\VoteRanking\\Providers\\RouteServiceProvider"
+    ],
+    "dependencies": {
+        "azuriom": "^1.1.0",
+        "vote": "^1.0.0"
+    }
+}
